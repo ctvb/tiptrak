@@ -1,0 +1,51 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ctvb.github.io/portfolio/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "flowbite": "^1.6.5",
+    "gh-pages": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2",
+    "gh-pages": "^5.0.0"
+  },
+  "description": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](undefined)\r   undefined\r   ## tableofcontents\r   * [purpose](#purpose)\r   * [stack](#stack)\r   * [link](#link)\r   * [picutes](#pictures)\r   ---\r   ## puropse\r   The purpose of this project is to make a webpage where I can show the projects that I have worked on. This will be good for gathering my projects in one place to be able to easily share them with others.\r   ## stack\r   React and HTML\r   ## link\r   https://ctvb.github.io/portfolio/\r   ## pictures\r   ![Alt text](public/about.png)\r   ![Alt text](public/contact.png)\r   ![Alt text](public/portfolio.png)",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC"
+}
